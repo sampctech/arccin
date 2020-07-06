@@ -1,3 +1,4 @@
+#see https://gist.github.com/discomplex/8350538 for updates
 #CONKY TOGGLE INSTRUCTIONS [turn your conky on/off with a keyboard shortcut]
 
 #Code borrowed from several forums... don't quite rememeber where I found it exactly ;)
