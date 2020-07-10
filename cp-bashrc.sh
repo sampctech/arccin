@@ -14,10 +14,4 @@
 
 #mv /home/user/Files/filename1.ext /home/user/Files/filename2.ext
 
-echo "Bashrc, apply or backup" [a/b]
-read input
-  if [[ "$input" == "a" ]]; then
-    cp -fr "$HOME"/github/arccin/Personal/bashrc "$HOME"/.bashrc
-  elif [[ "$input" == "b" ]]; then
-    cp -fr "$HOME"/.bashrc "$HOME"/github/arccin/Personal/bashrc
-  fi
+cp -fr "$HOME"/github/arccin/Personal/bashrc-personal "$HOME"/.bashrc-personal
