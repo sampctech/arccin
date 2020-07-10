@@ -110,6 +110,7 @@ done
 func_category Internet
 
 list=(
+brave-browser
 chromium
 deluge
 discord
