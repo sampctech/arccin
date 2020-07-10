@@ -14,3 +14,4 @@ sudo pacman -S --noconfirm --needed deluge
 
 Utilities
 sudo pacman -S --noconfirm --needed octopi
+sudo pacman -S --noconfirm --needed numlockx
