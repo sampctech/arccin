@@ -1,0 +1,15 @@
+# My personal aliases
+alias auri='yay -S --noconfirm'
+alias auru='yay -R --noconfirm'
+alias bkbp="cp ~/.bashrc-personal ~/g/0/arccin/Personal/bashrc-personal"
+alias impconk="cp ~/g/0/arccin/Personal/mcy/*.conkyrc "$HOME"/.config/conky"
+alias install='sudo pacman -S --noconfirm'
+alias remove='sudo pacman -R --noconfirm'
+alias myml='sudo reflector -c US -f 30 -l 30 --number 15 --sort rate --verbose --save /etc/pacman.d/mirrorlist'
+alias myup='myml && upall'
+alias edup='mirror && upall'
+
+#My start up app
+numlockx on
+
+#sudo pacman -S arcolinux-systemd-services-git
