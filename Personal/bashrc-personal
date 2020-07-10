@@ -8,6 +8,7 @@ alias remove='sudo pacman -R --noconfirm'
 alias myml='sudo reflector -c US -f 30 -l 30 --number 15 --sort rate --verbose --save /etc/pacman.d/mirrorlist'
 alias myup='myml && upall'
 alias edup='mirror && upall'
+alias upkey='install archlinux-keyring'
 
 #My start up app
 numlockx on
